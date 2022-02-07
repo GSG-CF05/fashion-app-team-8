@@ -1,0 +1,95 @@
+<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+
+.container{
+    align-items:  baseline;
+    
+}
+.close{
+    display: flex;
+width: 1.75rem;
+height: 2.18rem;
+margin-left: 1rem;
+
+}
+.head-1{
+    display: flex;
+    font-family: 'Tenor Sans', sans-serif; 
+   font-style: normal;
+font-weight: normal;
+font-size: 1.125rem;
+line-height: 2.5rem;
+letter-spacing: .25rem;
+text-transform: uppercase;
+color: #333333;
+margin-left: 1rem;
+}
+.ph1{
+    width: 100%;
+    margin-left: 1rem;
+}
+.ph2{
+   width: 100%;
+   margin-left: 1rem;
+}
+.hr1{
+    display: flex;
+    border: solid;
+     color: #000000; 
+     width: 24.5rem;
+     text-align: center;
+     opacity: 20%;
+   
+}
+.sup-head{
+    flex:row;
+}
+.h2{
+    display: inline-flex;
+    text-align: right;
+    width: 6.81rem;
+height: 1.81rem;
+font-family: 'Tenor Sans', sans-serif; 
+font-style: normal;
+font-weight: normal;
+margin-right: 12rem;
+margin-left: 1rem;
+
+}
+.price{
+    display: inline-flex;
+    width: 3.3125rem;
+height: 3.1875rem;
+text-align: end;
+font-family: 'Tenor Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 1rem;
+line-height: 2.125rem;
+letter-spacing: .1875rem;
+text-transform: uppercase;
+color: #DD8560;
+}
+.p1{
+    width: 22rem;
+height: 6.4375rem;
+font-family: Tenor Sans;
+font-style: normal;
+font-weight: normal;
+font-size: .875rem;
+line-height: 1.5rem;
+color: #888888;
+}
+.button-1{
+  
+  position: absolute;
+width: 428px;
+height: 81px;
+
+color: white;
+text-align: center;
+background-color: #000000;
+
+}
+.btn{
+position: sticky;
+}
