@@ -92,3 +92,48 @@ background-color: #000000;
 .btn{
 position: sticky;
 }
+
+@media (min-width: 450px) {
+    .container {
+      align-items: center;
+    }
+    .item-1 {
+      align-items: center;
+    }
+    .item-2 {
+      align-items: center;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .price{
+        font-size: 25px;
+        float: right;
+        width: auto !important;
+
+    }
+    .h2{
+        width: 50% !important;
+    }
+    p.p1 {
+        width: 100%;
+        font-size: 25px;
+    }
+    .button-1 {
+        position: absolute;
+        width: 35%;
+        height: 50px;
+        color: white;
+        text-align: center;
+        background-color: #000000;
+        left: 200px;
+        font-size: 25px;
+    }
+    .hr1{
+        width: 100%;
+    }
+.head-1{
+    width: 35%;
+    font-size: 3rem;
+}
+}
