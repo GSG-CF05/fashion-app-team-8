@@ -62,7 +62,7 @@ nav {
     font-size: 16px;
 }
 .container1{
-    background-image: url(img-forhomepage/basic\ photo.png);
+    background-image: url(assets/Home-page/basic\ photo.png);
     background-size: cover;
     height:580px;
     position: relative;
@@ -93,4 +93,68 @@ button{
     color: aliceblue;
     width: max-content;
     padding:10px;
+}
+.container2 p{
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 25px;
+}
+.p1::after{
+    content: '';
+    position:absolute;
+    
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    font-family: 'Tenor Sans', sans-serif;
+    color: #888888;
+}
+ul .active {
+    color: #000000;
+}
+.active ::after {
+    content:'';
+}
+h1{
+    font-size: 10px;
+}
+.container3{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(170px, 1fr) );
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    padding-left: 30px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Tenor Sans', sans-serif;
+}
+.container3 h1{
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+}
+.container3 p{
+    text-align: center;
+    color: #DD8560;
+    font-size: 15px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-footer{
+    background-color:white;
+    color: #000000;
+    opacity: 1;
+    border: 0px;
 }
