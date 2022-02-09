@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Tenor+Sans&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -41,5 +42,106 @@ nav {
   }
   .bag {
     padding-right: 1%;
+  }
+}
+/* main */
+.product img {
+  height: 457.33px;
+  width: 343px;
+  align-items: center;
+  padding: 4%;
+}
+.product {
+  margin: 6%;
+}
+.contenar{
+  margin: 5%;
+  align-items: center;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.description  div h4{
+ display: inline;
+}
+.description  div img{
+  position: absolute;
+  right: 5%;
+}
+.description h4 {
+  font-family: "Tenor Sans", sans-serif;
+}
+.description p{
+  font-size: 1rem;
+  line-height: 1.1rem;
+  color: #555555;
+  margin: 0.6rem 0px;
+}
+#price {
+  font-size: 1.1rem;
+  font-family: "Tenor Sans", sans-serif;
+  color: #dd8560;
+}
+.properties{
+  display:flex;
+  flex-direction: row;
+}
+.color ,.size{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 1em;
+  color: #555555;
+}
+.circle{
+  border-radius: 50%;
+  height: 22.2px;
+  width: 22.2px;
+}
+.black{
+  background-color: black;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+.orange{
+  background-color: #DD8560;
+  margin:0 2%;
+}
+.white{
+  background-color: #E1E0DB;
+  margin:0 2%;
+}
+.selected{
+  background: #333333;
+  color: white;
+  margin-left: 10%;
+  margin-right: 2%;
+  height: 1.2rem;
+  width: 1.2rem;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.unselected{
+  margin:0 2%;
+  height: 1.2rem;
+  width: 1.2rem;
+  border: 1px solid #a8a8a8;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+@media (min-width: 450px){
+  .product img {
+    padding-left: 25%;
+    width: 75%;
+    height: 50%;
+    align-items: center;
+  }
+  .product {
+    margin: 0;
   }
 }
