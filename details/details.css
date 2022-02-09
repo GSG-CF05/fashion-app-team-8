@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  padding: 10px;
+  width: 100%;
+  overflow: auto;
+}
+.menu {
+  height: 28px;
+  width: 27.39px;
+  display: inline-block;
+  margin-left: 3%;
+}
+.logo {
+  height: 27.33px;
+  width: 89.12px;
+  display: inline-block;
+  margin: 0 22%;
+}
+.serch {
+  height: 28px;
+  width: 27.39px;
+  display: inline-block;
+  margin-right: 1%;
+}
+.bag {
+  height: 28px;
+  width: 27.39px;
+  display: inline-block;
+  padding-right: 1%;
+}
+@media (min-width: 450px) {
+  .logo {
+    margin: 0 42%;
+  }
+  .menu {
+    margin-left: 1%;
+  }
+  .bag {
+    padding-right: 1%;
+  }
+}
