@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Tenor+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Tenor+Sans&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -54,7 +54,7 @@ nav {
 .product {
   margin: 6%;
 }
-.contenar{
+.contenar {
   margin: 5%;
   align-items: center;
 }
@@ -64,17 +64,17 @@ nav {
   justify-content: center;
   position: relative;
 }
-.description  div h4{
- display: inline;
+.description div h4 {
+  display: inline;
 }
-.description  div img{
+.description div img {
   position: absolute;
   right: 5%;
 }
 .description h4 {
   font-family: "Tenor Sans", sans-serif;
 }
-.description p{
+.description p {
   font-size: 1rem;
   line-height: 1.1rem;
   color: #555555;
@@ -85,11 +85,12 @@ nav {
   font-family: "Tenor Sans", sans-serif;
   color: #dd8560;
 }
-.properties{
-  display:flex;
+.properties {
+  display: flex;
   flex-direction: row;
 }
-.color ,.size{
+.color,
+.size {
   display: flex;
   flex-direction: row;
   width: 50%;
@@ -97,25 +98,25 @@ nav {
   font-size: 1em;
   color: #555555;
 }
-.circle{
+.circle {
   border-radius: 50%;
   height: 22.2px;
   width: 22.2px;
 }
-.black{
+.black {
   background-color: black;
   margin-left: 10%;
   margin-right: 2%;
 }
-.orange{
-  background-color: #DD8560;
-  margin:0 2%;
+.orange {
+  background-color: #dd8560;
+  margin: 0 2%;
 }
-.white{
-  background-color: #E1E0DB;
-  margin:0 2%;
+.white {
+  background-color: #e1e0db;
+  margin: 0 2%;
 }
-.selected{
+.selected {
   background: #333333;
   color: white;
   margin-left: 10%;
@@ -125,8 +126,8 @@ nav {
   font-size: 0.7rem;
   text-align: center;
 }
-.unselected{
-  margin:0 2%;
+.unselected {
+  margin: 0 2%;
   height: 1.2rem;
   width: 1.2rem;
   border: 1px solid #a8a8a8;
@@ -134,7 +135,7 @@ nav {
   font-size: 0.7rem;
 }
 
-@media (min-width: 450px){
+@media (min-width: 450px) {
   .product img {
     padding-left: 25%;
     width: 75%;
@@ -143,5 +144,35 @@ nav {
   }
   .product {
     margin: 0;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 4rem;
+  color: white;
+  margin-top: 20%;
+}
+.footer p {
+  font-family: "Tenor Sans", sans-serif;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.plus,
+.heart {
+  height: 23.2px;
+  width: 22.8px;
+}
+.plus {
+  margin: 0 3%;
+}
+.heart {
+  margin-left: 45%;
+}
+@media (min-width: 450px) {
+  .heart {
+    margin-left: 80%;
   }
 }
